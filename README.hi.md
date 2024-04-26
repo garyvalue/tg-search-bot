@@ -31,7 +31,7 @@
 -   अभिनेताओं की खोज में सहायता - 2023/02/18
 -   रेडिस के माध्यम से कैशिंग का समर्थन करें - 2023/03/17
 
-## ट्यूटोरियल
+## Tutorial
 
 सबसे पहले, आपको प्रोजेक्ट कोड को स्थानीय रूप से डाउनलोड करना होगा, फिर बॉट को कॉन्फ़िगर करना होगा और संपादित करना होगा`~/.tg_search_bot/config.yaml`：
 
@@ -71,18 +71,18 @@ enable_nsfw: 0
 ```sh
 # op1. docker-compose
 docker-compose up -d
-# op2. simple way (Python >=3.10)
+# op2. simple way (Python >=3.9)
 pip install -r requirements.txt && python3 bot.py
 ```
 
 ## विकास
 
-मैं विकास के लिए पायथन-3.10.9 का उपयोग करता हूं। कृपया विकास के लिए पायथन &lt;= 3.10 का उपयोग करें। इसके अलावा, अनावश्यक समस्याओं से बचने के लिए पायथन वर्चुअल पर्यावरण विकास का उपयोग करने की अनुशंसा की जाती है। केवल संदर्भ के लिए मेरे विकास चरण निम्नलिखित हैं:
+मैं विकास के लिए पायथन-3.9.13 का उपयोग करता हूं। कृपया विकास के लिए पायथन &lt;= 3.9 का उपयोग करें। इसके अलावा, अनावश्यक समस्याओं से बचने के लिए पायथन वर्चुअल पर्यावरण विकास का उपयोग करने की अनुशंसा की जाती है। केवल संदर्भ के लिए मेरे विकास चरण निम्नलिखित हैं:
 
 ```shell
 git clone https://github.com/akynazh/tg-search-bot.git
 cd tg-search-bot
-~/.pyenv/versions/3.10.9/bin/python -m venv .venv
+~/.pyenv/versions/3.9.13/bin/python -m venv .venv
 source ./.venv/bin/activate
 pip3 install -r requirements.txt
 ```
@@ -95,7 +95,7 @@ pip3 install -r requirements.txt
 -   वीडियो खोज अधिक चुंबकीय वेबसाइटों का समर्थन करती है (वर्तमान में केवल द पाइरेट बे समर्थित है)
 -   अन्य सुविधाएँ जिन्हें आप प्रदर्शित होते देखना चाहेंगे...
 
-## स्वीकृतियाँ
+## Acknowledgments
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 
