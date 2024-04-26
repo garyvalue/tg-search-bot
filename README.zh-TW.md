@@ -18,11 +18,11 @@
 
 -   支援獲取基本視訊資訊和磁力連結 - 2022/11/25
 -   支援配置代理 - 2022/11/26
--   Support filtering magnet links (uncensored => hd => subtitle)- 2022/11/26
+-   支援過濾磁力連結（無碼=>高清=>字幕）- 2022/11/26
 -   支援讓機器人自動保存最佳磁力連結到 Pikpak - 2022/12/29
 -   支援取得預覽影片和完整影片 - 2022/12/31
--   支援獲取視頻截圖 - 2023/01/01
--   支援演員及視訊採集 - 2023/01/04
+-   Support obtaining video screenshots - 2023/01/01
+-   Support collection of actors and videos - 2023/01/04
 -   支援透過docker部署 - 2023/01/08
 -   支援獲取演員排名和電影評分 - 2023/01/20
 -   支援隨機存取高分影片和最新影片 - 2023/01/25
@@ -71,18 +71,18 @@ PS：如果要使用Pikpak的自動傳送功能，需要先手動授權：[Pikpa
 ```sh
 # op1. docker-compose
 docker-compose up -d
-# op2. simple way (Python >=3.10)
+# op2. simple way (Python >=3.9)
 pip install -r requirements.txt && python3 bot.py
 ```
 
 ## 發展
 
-我使用 python-3.10.9 進行開發。請使用 python &lt;= 3.10 進行開發。另外，建議使用python虛擬環境開發，以避免不必要的問題。以下是我的開發步驟，僅供參考：
+我使用 python-3.9.13 進行開發。請使用 python &lt;= 3.9 進行開發。另外，建議使用python虛擬環境開發，以避免不必要的問題。以下是我的開發步驟，僅供參考：
 
 ```shell
 git clone https://github.com/akynazh/tg-search-bot.git
 cd tg-search-bot
-~/.pyenv/versions/3.10.9/bin/python -m venv .venv
+~/.pyenv/versions/3.9.13/bin/python -m venv .venv
 source ./.venv/bin/activate
 pip3 install -r requirements.txt
 ```
