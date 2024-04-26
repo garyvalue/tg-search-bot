@@ -71,18 +71,18 @@ Enfin, exécutez le bot : (les fichiers tels que les enregistrements et les jou
 ```sh
 # op1. docker-compose
 docker-compose up -d
-# op2. simple way (Python >=3.10)
+# op2. simple way (Python >=3.9)
 pip install -r requirements.txt && python3 bot.py
 ```
 
-## Développement
+## Development
 
-J'utilise python-3.10.9 pour le développement. Veuillez utiliser python &lt;= 3.10 pour le développement. De plus, il est recommandé d'utiliser le développement d'un environnement virtuel Python pour éviter des problèmes inutiles. Voici mes étapes de développement à titre de référence uniquement :
+J'utilise python-3.9.13 pour le développement. Veuillez utiliser python &lt;= 3.9 pour le développement. De plus, il est recommandé d'utiliser le développement d'un environnement virtuel Python pour éviter des problèmes inutiles. Voici mes étapes de développement à titre de référence uniquement :
 
 ```shell
 git clone https://github.com/akynazh/tg-search-bot.git
 cd tg-search-bot
-~/.pyenv/versions/3.10.9/bin/python -m venv .venv
+~/.pyenv/versions/3.9.13/bin/python -m venv .venv
 source ./.venv/bin/activate
 pip3 install -r requirements.txt
 ```
