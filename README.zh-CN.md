@@ -10,7 +10,7 @@
 
 该机器人基于Python3构建，支持使用Docker一键部署，并通过Redis实现缓存功能。
 
-其他语言的自述文件（由自动生成[翻译自述文件](https://github.com/dephraiim/translate-readme)):[阿拉伯](./README.ar.md),[没有](./README.hi.md),[法语](./README.fr.md),[简体中文](./README.zh-CN.md), [繁体中文](./README.zh-TW.md).
+其他语言的自述文件（由自动生成[翻译自述文件](https://github.com/dephraiim/translate-readme)):[阿拉伯](./README.ar.md),[没有](./README.hi.md),[法语](./README.fr.md),[简体中文](./README.zh-CN.md),[繁体中文](./README.zh-TW.md).
 
 ## 功能
 
@@ -64,30 +64,30 @@ redis_password:
 enable_nsfw: 0
 ```
 
-PS：如果要使用Pikpak的自动发送功能，需要先手动授权：[Pikpak 官方机器人](https://t.me/PikPak6_Bot), and then log in when running the bot for the first time. (My Pikpak invitation code: 99492001, enter to get membership)
+PS：如果要使用Pikpak的自动发送功能，需要先手动授权：[Pikpak 官方机器人](https://t.me/PikPak6_Bot)，然后在第一次运行机器人时登录。 （我的Pikpak邀请码：99492001，输入即可获得会员资格）
 
 最后运行bot：（记录、日志等文件位于`~/.tg_search_bot`)
 
 ```sh
 # op1. docker-compose
 docker-compose up -d
-# op2. simple way (Python >=3.10)
+# op2. simple way (Python >=3.9)
 pip install -r requirements.txt && python3 bot.py
 ```
 
 ## 发展
 
-我使用 python-3.10.9 进行开发。请使用 python &lt;= 3.10 进行开发。另外，建议使用python虚拟环境开发，以避免出现不必要的问题。以下是我的开发步骤，仅供参考：
+我使用 python-3.9.13 进行开发。请使用 python &lt;= 3.9 进行开发。另外，建议使用python虚拟环境开发，以避免出现不必要的问题。以下是我的开发步骤，仅供参考：
 
 ```shell
 git clone https://github.com/akynazh/tg-search-bot.git
 cd tg-search-bot
-~/.pyenv/versions/3.10.9/bin/python -m venv .venv
+~/.pyenv/versions/3.9.13/bin/python -m venv .venv
 source ./.venv/bin/activate
 pip3 install -r requirements.txt
 ```
 
-Then you can start writing code. When you are done, remember to write or run a test instance (in `tests/test.py`）。提交代码前请确保测试没有问题。
+然后就可以开始编写代码了。完成后，请记住编写或运行一个测试实例（在`tests/test.py`）。提交代码前请确保测试没有问题。
 
 ## 全部
 
