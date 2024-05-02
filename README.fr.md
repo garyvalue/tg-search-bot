@@ -19,15 +19,15 @@ Les fonctions suivantes sont triées par heure d'achèvement du développement e
 -   Prend en charge l'obtention d'informations vidéo de base et de liens magnétiques - 2022/11/25
 -   Prise en charge du proxy de configuration - 26/11/2022
 -   Prise en charge des liens magnétiques de filtrage (non censuré => hd => sous-titre) - 26/11/2022
--   Support permettant au bot d'enregistrer automatiquement les liens magnétiques optimaux vers Pikpak - 2022/12/29
+-   Support allowing bot to automatically save optimal magnet links to Pikpak - 2022/12/29
 -   Prise en charge de l'obtention d'un aperçu de la vidéo et de la vidéo complète - 2022/12/31
 -   Prise en charge de l'obtention de captures d'écran vidéo - 01/01/2023
 -   Collecte de soutien d'acteurs et de vidéos - 04/01/2023
--   Support déploiement via docker - 08/01/2023
+-   Support deployment via docker - 2023/01/08
 -   Prend en charge l'obtention de classements d'acteurs et de classements de films - 20/01/2023
 -   Prend en charge l'accès aléatoire aux vidéos les plus performantes et aux dernières vidéos - 2023/01/25
 -   Aide à l'obtention des noms chinois des acteurs via Wikipédia - 2023/02/18
--   Support traduction des titres japonais - 18/02/2023
+-   Support traduction des titres japonais - 2023/02/18
 -   Accompagnement à la recherche d'acteurs - 18/02/2023
 -   Prise en charge de la mise en cache via Redis - 2023/03/17
 
@@ -75,7 +75,7 @@ docker-compose up -d
 pip install -r requirements.txt && python3 bot.py
 ```
 
-## Development
+## Développement
 
 J'utilise python-3.9.13 pour le développement. Veuillez utiliser python &lt;= 3.9 pour le développement. De plus, il est recommandé d'utiliser le développement d'un environnement virtuel Python pour éviter des problèmes inutiles. Voici mes étapes de développement à titre de référence uniquement :
 
